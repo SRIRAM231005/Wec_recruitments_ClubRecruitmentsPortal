@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Club Details</title>
+</head>
+<body>
+    <div class="clubHeader">
+        <div class="h1"></div>
+    </div>
+    <div class="clubBody">
+        <div class="bodyHead">
+            <div class="row11">Sig Name</div>
+            <div class="row11"></div>
+            <div class="row11">Schedules for R1 and R2</div>
+            <div class="row11">Set Dates</div>
+        </div>
+    </div>
+    <div class="Announcement">
+        <div>Make an Announcement regarding Schedules</div>
+        <button onclick="announcementForm();">Announcement</button>
+    </div>
+    <div class="RegBody">
+        <div class="RegbodyHead">
+            <div class="row11">Sig Name</div>
+            <div class="row11">R1 Applied list</div>
+            <div class="row11">R1 selected student</div>
+            <div class="row11">R2 selected student</div>
+        </div>
+    </div>
+    <div class="releaseForm">
+        <div>Release the Registration Form</div>
+        <button onclick="RegForm();">Registration Form</button>
+    </div>
+    <div class="releaseResult">
+        <div>Release the Final Result</div>
+        <button onclick="ReleaseResult();">Download Result</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="club_details.js"></script>
+</body>
+</html>
